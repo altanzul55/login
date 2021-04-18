@@ -1,0 +1,33 @@
+<%- include('./layout/header.ejs'); %>
+<link rel="stylesheet" href="css/about.css">
+<div class="river">
+<% for(var i=0 ; i< users.length; i++) { %>
+<div class="card--container">
+<div class="card--heading__bg">
+<div class="card--cutout"><span class="fa fa-user fa-5x"></span></div>
+<h2 class="card--title"><%= users[i].username %></h2>
+<hr class="header--divider">
+<h3 class="card--subtitle"><%= users[i].email %></h3>
+</div>
+<div class="card--content__bg">
+<div class="card--content">
+<h4 class="content--subtitle">МЭДЭЭЛЭЛ</h4>
+<p>Example text written in such a way to pique your curiosity but also prove a point. The point being that this text can be very long.</p>
+</div>
+<hr class="social--divider">
+<div class="social--container">
+<ul>
+<a href="http://google.com"><li class="social--icon fa fa-facebook fa-2x"></li></a>
+<a href="http://google.com"><li class="social--icon fa fa-twitter fa-2x"></li></a>
+<a href="http://google.com"><li class="social--icon fa fa-linkedin fa-2x"></li></a>
+<a href="http://google.com"><li class="social--icon fa fa-youtube fa-2x"></li></a>
+<a href="http://google.com"><li class="social--icon fa fa-comments fa-2x"></li></a>
+</ul>
+</div>
+</div>
+</div>
+<% } %>
+</div>
+
+
+<%- include('./layout/footer.ejs'); %>

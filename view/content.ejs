@@ -1,0 +1,49 @@
+<%- include('./layout/header.ejs'); %>
+
+<link rel="stylesheet" href="../css/read.css">
+<div class="all-info">
+<div class="flex-container">
+<div class="flax-main">
+<main class="main-content">
+<section class="news-posts">
+
+<article class="news-post">
+<div class="one-news-blog">
+<h2 class="news-post-title"><%= content.title %></h2>
+<div class="footer">
+<time class="news-time" datetime="2019-06-10">15 2сар 2021</time>
+<div class="name-author">😍1065    🤣560    😡78      😥 210</div>
+
+</div>
+
+<div class="prewiew-text">1. <br> Жагсаалтын хамгийн эхэнд Швейцар орж байна.
+<br> <%= content.description %>
+</div>
+<div class="left-photo "> <img src="../images/newsPhoto/<%= content.blogPhoto %>" height="500px" width="500px" alt=""> </div>
+</div>
+</article>
+
+
+<div class="different-section2">
+    <h3 class="right-news-titles"></h3>
+    <h3 class="right-news-titles"></h3>
+    <div class="right-side-content">
+    <section class="email-address">
+    <form class="form-row">
+    <label class="form-group">
+    <input type="email" class="field" placeholder="Email-аdress" required>
+    </label>
+    <div class="form-row-group">
+    <button class="button">Илгээх</button>
+    </div>
+    </form>
+    </section>
+    </div>
+    
+    </div>
+
+</section>
+</main>
+</div>
+</div>
+<%- include('./layout/footer.ejs'); %>

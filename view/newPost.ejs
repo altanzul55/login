@@ -1,0 +1,36 @@
+<%- include('./admin-layout/header.ejs'); %>
+<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+
+<h2>Post</h2>
+
+<form action="newPost" method="POST" enctype="multipart/form-data">
+<div class="mb-3">
+<label>Title</label>
+<input
+type="text"
+name="title"
+class="form-control"
+>
+</div>
+<div class="mb-3">
+<label>Content</label>
+<input
+type="text"
+name="description"
+class="form-control">
+</div>
+
+<div class="mb-3">
+<label>Profile Photo</label>
+<input
+type="file"
+name="blogPhoto"
+class="form-control"
+>
+</div>
+
+<button type="submit" class="btn btn-primary">Upload</button>
+</form>
+
+</main>
+<%- include('./admin-layout/footer.ejs'); %>

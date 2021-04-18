@@ -1,0 +1,48 @@
+<%- include('./layout/header.ejs'); %>
+<div class="all-info">
+<div class="flex-container">
+<div class="flax-main">
+<main class="main-content">
+<section class="news-posts">
+<% for(var i = users.length-1; i >=0; i--) { %>
+<article class="news-post">
+<img src="../images/newsPhoto/<%=users[i].blogPhoto %>" class="left-photo" >
+<div class="one-news-blog">
+<div class="item-news">
+<ul>
+    
+<li><a href="#0" class="item">Энтертайнмент</a></li>
+<li><a href="#0" class="item">Оддын тухай</a></li>
+</ul>
+</div>
+<a href="content/<%=users[i].id %>" >
+<h2 class="news-post-title"> <%= users[i].title %></h2>
+</a>
+
+
+<div class="footer">
+<time class="news-time" datetime="2019-06-10">15 3сар 2021</time>
+<div class="name-author">😍1065    🤣560    😡78      😥 210</div>
+</div>
+<div class="prewiew-text"><%= users[i].description %>
+    
+</article>
+<% } %>
+</section>
+</main>
+</div>
+<div class="flex-aside">
+<aside class="right-side-block">
+<div class="different-sections">
+<div class="different-section">
+<div class="right-side-content">
+<section class="right-last-news">
+</section>
+</div>
+</div>
+
+</div>
+</aside>
+</div>
+</div>
+<%- include('./layout/footer.ejs'); %>

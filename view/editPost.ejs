@@ -1,0 +1,38 @@
+<%- include('../admin-layout/header.ejs'); %>
+<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+<h2>Edit Post</h2>
+<% for(var i=0;i< blog.length;i++ ){ %> 
+<form method="POST" action="/editPost/<%= blog[i].id %>" enctype="multipart/form-data">
+<div class="mb-3">
+<label for="exampleInputEmail1" class="form-label">Title</label>
+<input
+type="text"
+name="title"
+class="form-control"
+
+value="<%= blog[i].title %>">
+
+</div>
+<div class="mb-3">
+
+
+
+<textarea placeholder="Content" name="description" id="" cols="30" rows="10" class="form-control"><%= blog[i].description %></textarea>
+
+</div>
+<div class="mb-3">
+
+<img src="../images/newsPhoto/<%= blog[i].blogPhoto %>"
+height="200px"
+width="200px">
+<input
+type="file"
+name="photo"
+class="form-control">
+<input type="hidden" name="image1"  value="<%= blog[i].blogPhoto %>">
+</div>
+<button type="submit" class="btn btn-primary">Update</button>
+</form>
+<% } %> 
+</main>
+<%- include('../admin-layout/footer.ejs'); %>

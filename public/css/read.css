@@ -1,0 +1,466 @@
+.hero {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  min-height: 400px;
+  height: 900px;
+  width: 100%;
+  background-image: url("https://static-cse.canva.com/image/59411/canva-animation-boom.gif");
+  background-size: cover;
+}
+
+.hero:after {
+  content: "";
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.flex-container {
+  display: flex;
+  margin-top: 30px;
+  width: 100%;
+  justify-content: space-around;
+  z-index: 2;
+}
+
+.header-logo {
+  display: block;
+  width: 175px;
+}
+
+.menu-list {
+  margin-left: 100px;
+  margin-right: 50px;
+}
+.menu-list > ul {
+  display: flex;
+  list-style-type: none;
+  margin-top: 15px;
+  padding-left: 0;
+}
+
+.menu-list + .menu-list-item {
+  margin-left: 100px;
+}
+
+.menu-list-item {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: serif;
+  font-smooth: 20px;
+  font-size: 20px;
+  color: #080808;
+  margin-left: 30px;
+}
+
+.main-title {
+  display: flex;
+  line-height: 1.5;
+  width: 730px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: arial, sans-serif;
+  color: #ffffff;
+  z-index: 3;
+}
+h1 {
+  font-size: 45px;
+}
+
+.all-info {
+  margin-top: 50px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*основной контент*/
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: arial, sans-serif;
+  color: black;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.news-post {
+  display: flex;
+  width: 800px;
+
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+.item-news {
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 0;
+  margin-top: 0;
+  padding-left: 0;
+  text-transform: uppercase;
+  font-family: arial, sans-serif;
+}
+time {
+  margin-right: 10px;
+}
+.item-news > ul {
+  display: flex;
+  list-style-type: none;
+  margin-top: 0;
+  padding-left: 0;
+}
+.item {
+  text-decoration: none;
+  color: #b2a15c;
+  margin-right: 20px;
+}
+
+.one-news-blog {
+  display: block;
+  width: 500px;
+  padding-top: 5px;
+  padding-left: 0;
+  margin-right: 10px;
+  margin-top: 1px;
+}
+
+.left-photo {
+  height: 400px;
+  width: 400px;
+  margin-left: 1px;
+  margin-right: 20px;
+  margin-top: 30px;
+  background-repeat: no-repeat;
+}
+
+.left-image {
+  height: 400px;
+  width: 400px;
+  margin-left: 1px;
+  margin-right: 20px;
+  padding-top: 30px;
+
+  background-repeat: no-repeat;
+  background-size: 800px;
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 20px;
+  width: 800px;
+  margin-left: 100px;
+  text-transform: uppercase;
+  font-family: arial, sans-serif;
+}
+
+.footer {
+  display: flex;
+  font-size: 12px;
+}
+
+.news-time {
+  color: #898989;
+  font-size: 12px;
+  font-family: arial, sans-serif;
+  text-transform: lowercase;
+  font-weight: 100;
+  margin-top: 20px;
+}
+
+.name-author {
+  font-weight: 700;
+  margin-top: 20px;
+  font-family: arial, sans-serif;
+}
+.prewiew-text {
+  display: block;
+  width: 800px;
+  margin-top: 30px;
+  font-size: 15px;
+
+  font-family: arial, sans-serif;
+}
+.text {
+  font-weight: 700;
+  font-family: arial, sans-serif;
+}
+
+.right-side-block {
+  text-transform: uppercase;
+  font-family: arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.different-sections {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+}
+
+.different-section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.right-news-titles::after {
+  content: "";
+  display: block;
+  border-width: 2px;
+  width: 70px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  border-style: solid;
+  border-color: #b2a15c;
+  background-color: #b2a15c;
+}
+
+.right-side-photo {
+  float: left;
+  margin-right: 17px;
+  margin-bottom: 20px;
+}
+
+.right-news {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.right-news > .news-time {
+  color: #b69f5b;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: none;
+  font-family: arial, sans-serif;
+}
+
+.right-side-content {
+  text-align: left;
+}
+
+.right-news-title {
+  display: block;
+  margin-top: 5px;
+}
+
+section > email-address {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.field {
+  width: 270px;
+  height: 45px;
+  background-color: #f3f7f6;
+  border-style: none;
+  padding-left: 15px;
+
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: right;
+}
+.form-row {
+  display: block;
+  border-style: none;
+  margin-top: 10px;
+}
+.form-row-glass {
+  display: flex;
+  width: 287px;
+  margin-right: 0px;
+  margin-left: 50px;
+}
+
+.img-find {
+  width: 48px;
+  height: 48px;
+  background-color: #000000;
+  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/search.svg");
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: right 10px center;
+}
+
+.form-row-glass > .field {
+  width: 222px;
+  height: 46px;
+}
+
+.find {
+  width: 50px;
+  height: 50px;
+  color: #b69f5b;
+}
+
+.button {
+  display: block;
+  width: 287px;
+  height: 47px;
+  background-color: #000000;
+  border-style: none;
+  margin-top: 10px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.all-tegs {
+  display: flex;
+  width: 287px;
+  padding: 0;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.teg {
+  display: flex;
+  padding-top: 8px;
+  padding-right: 13px;
+  padding-bottom: 8px;
+  padding-left: 13px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #eeeeee;
+  font-weight: 800;
+}
+
+.items-list > li {
+  list-style-type: none;
+}
+
+.list-item {
+  display: block;
+  list-style-type: none;
+  width: 100%;
+  padding-top: 22px;
+  padding-bottom: 17px;
+  border-bottom-style: solid;
+  border-bottom-color: #eeeeee;
+}
+
+.items-list {
+  padding-left: 0;
+}
+
+.number {
+  padding-left: 5px;
+  vertical-align: super;
+  color: #b59f5b;
+}
+.page-footer {
+  width: 100%;
+}
+
+.socials {
+  display: flex;
+  height: 80px;
+  padding: 0%;
+  margin-left: 25px;
+  background-color: #f3f7f6;
+  background-position: center center;
+  justify-content: center;
+}
+
+.socials-item {
+  display: block;
+  list-style-type: none;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-link-twitter {
+  display: block;
+  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter.svg);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center center;
+  width: 40px;
+  height: 40px;
+}
+.social-link-pinterest {
+  display: block;
+  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/001-pinterest.svg);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center center;
+  width: 40px;
+  height: 40px;
+}
+.social-link-facebook {
+  display: block;
+  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center center;
+  width: 40px;
+  height: 40px;
+}
+.social-link-instagram {
+  display: block;
+  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/005-instagram.svg);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center center;
+  width: 40px;
+  height: 40px;
+}
+.social-link-tumblr {
+  display: block;
+  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center center;
+  width: 40px;
+  height: 40px;
+}
+
+.copyright {
+  display: block;
+  margin-top: 75px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: calibri, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #929292;
+}
+
+.all-items-list {
+  margin-top: 250px;
+  margin-left: 0px;
+  margin-right: 50px;
+}
+
+.flex-aside {
+  margin-top: 120px;
+  margin-right: 70px;
+}
+
+.name-author {
+  font-size: 16px;
+  text-align: center;
+}
+
+.different-section2 {
+  text-align: center;
+}

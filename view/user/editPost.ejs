@@ -1,0 +1,39 @@
+<%- include('../admin-layout/header.ejs'); %>
+<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+
+  <h2>Edit Post</h2>
+
+  <form method="POST" action="/editPost/<%= blog.id %>"  enctype="multipart/form-data">
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Title</label>
+      <input 
+      type="text" 
+      name="title" 
+      class="form-control" 
+      
+      value="<%= blog.title %>">
+    
+    </div>
+    <div class="mb-3">
+    
+   
+ 
+       <textarea placeholder="Content" name="content" id="" cols="30" rows="10" class="form-control"><%= blog.description %></textarea>
+
+    </div>
+    <div class="mb-3">
+    
+      <img src="../images/newsPhoto/<%= blog.blogPhoto %>" 
+      height="200px"
+      width="200px">
+      <input 
+      type="file" 
+      name="phts" 
+      class="form-control">
+
+    </div>
+    <button type="submit" class="btn btn-primary">Update</button>
+  </form>
+      
+      </main>
+        <%- include('../admin-layout/footer.ejs'); %>
