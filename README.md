@@ -29,13 +29,13 @@ ALTER TABLE blogPost ADD PRIMARY KEY (id); ALTER TABLE blogPost MODIFY id int(11
 
 DB_HOST = ‘localhost’
 DB_USERNAME = 'root'
-DB_PASSWORD = ' '/enter your password/
+DB_PASSWORD = 'password'
 DB_NAME = 'nodelogin'
 
 SERVER_PORT = 3000
 6.Open Terminal Start : npm start
 
-7.Open browser: write
+Open browser: write
 
 localhost:3000
 
