@@ -11,7 +11,7 @@
  
     Visual download npm install in terminal:
 
-3.MySql open Database: User table name accounts
+  3.MySql open Database: User table name accounts
 
 CREATE TABLE IF NOT EXISTS `accounts` (
 `id` int(11) NOT NULL,
