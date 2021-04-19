@@ -57,7 +57,6 @@
  ##6.Open Terminal Start : 
   
        npm start
-
  ##7.Open browser: write
 
        localhost:3000
