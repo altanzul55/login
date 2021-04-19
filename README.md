@@ -19,7 +19,8 @@
     `password` varchar(255) NOT NULL,
     `email` varchar(255) NOT NULL,
     `profilePicture` varchar(255) ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
-ALTER TABLE accounts ADD PRIMARY KEY (id); ALTER TABLE accounts MODIFY id int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
+     ALTER TABLE accounts ADD PRIMARY KEY (id); 
+     ALTER TABLE accounts MODIFY id int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
 
 4.MySql open Database: Blog table name blogPost
 
