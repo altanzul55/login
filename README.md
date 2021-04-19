@@ -7,8 +7,9 @@
 
 1. ZIP Download хийнэ: login file
 
-2.file-> Open Folder in Visual Studio
-Visual download npm install in terminal:
+ 2. file->  Open Folder in Visual Studio
+
+   Visual download npm install in terminal:
 
 3.MySql open Database: User table name accounts
 
