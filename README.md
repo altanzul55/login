@@ -54,11 +54,13 @@
     DB_NAME = 'nodelogin'
 
     SERVER_PORT = 3000
+    
  ##6.Open Terminal Start : 
   
-       npm start
+    npm start
+       
  ##7.Open browser: write
 
-       localhost:3000
+    localhost:3000
 
 
