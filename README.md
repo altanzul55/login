@@ -3,7 +3,7 @@
   
   <img src="https://scontent.fuln4-2.fna.fbcdn.net/v/t1.15752-9/175067337_734233787254698_4384030950351178399_n.png?_nc_cat=101&ccb=1-3&_nc_sid=ae9488&_nc_ohc=0ihAWwyVnhQAX8EzG41&_nc_ht=scontent.fuln4-2.fna&oh=f6b1b706e800c055766eebc5cc868a8d&oe=60A09152" />
  
-# Ашиглах заавар:
+## Ашиглах заавар:
 
 1. ZIP Download хийнэ: login file
 
