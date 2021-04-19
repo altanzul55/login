@@ -5,7 +5,7 @@
  
 # Ашиглах заавар:
 
-1.Download хийнэ: login ‘Folder name ‘
+1. ZIPDownload хийнэ: login file
 
 2.file-> Open Folder in Visual Studio
 Visual download npm install in terminal:
