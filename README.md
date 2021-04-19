@@ -5,13 +5,13 @@
  
 # Ашиглах заавар:
 
- ## 1. ZIP Download хийнэ: login file
+  1. ZIP Download хийнэ: login file
 
- ## 2. file->  Open Folder in Visual Studio
+  2. file->  Open Folder in Visual Studio
  
     Visual download npm install in terminal:
 
-  ## 3.MySql open Database: User table name accounts
+  #3.MySql open Database: User table name accounts
 
     CREATE DATABASE IF NOT EXISTS `nodelogin` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
     USE `nodelogin`;
@@ -30,7 +30,7 @@
     
     select*from accounts;
 
-  ## 4.MySql open Database: Blog table name blogPost
+  4.MySql open Database: Blog table name blogPost
 
    CREATE DATABASE IF NOT EXISTS nodelogin DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci; USE nodelogin;
 
@@ -46,7 +46,7 @@
     
     select*from blogPost;
 
-   ##5.Create file: .env
+  5.Create file: .env
 
     DB_HOST = ‘localhost’
     DB_USERNAME = 'root'
@@ -55,11 +55,11 @@
 
     SERVER_PORT = 3000
     
- ##6.Open Terminal Start : 
+ 6.Open Terminal Start : 
   
     npm start
        
- ##7.Open browser: write
+ 7.Open browser: write
 
     localhost:3000
 
